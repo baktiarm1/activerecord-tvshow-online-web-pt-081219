@@ -1,4 +1,4 @@
-class CreateShows < Activ::Migration[4.2]
+class CreateShows < Active::Migration[4.2]
   def change
     create_table :shows do |s|
       s.string :name
@@ -7,4 +7,4 @@ class CreateShows < Activ::Migration[4.2]
       s.integer :ratings
     end
   end
-end 
+end
